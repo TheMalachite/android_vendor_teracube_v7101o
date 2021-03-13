@@ -524,7 +524,6 @@ PRODUCT_COPY_FILES += \
     vendor/teracube/v7101o/proprietary/vendor/lib/hw/lights.mt6771.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/lights.mt6771.so \
     vendor/teracube/v7101o/proprietary/vendor/lib/hw/memtrack.mt6771.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/memtrack.mt6771.so \
     vendor/teracube/v7101o/proprietary/vendor/lib/hw/power.mt6771.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/power.mt6771.so \
-    vendor/teracube/v7101o/proprietary/vendor/lib/hw/sound_trigger.primary.mt6771.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sound_trigger.primary.mt6771.so \
     vendor/teracube/v7101o/proprietary/vendor/lib/hw/thermal.mt6771.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/thermal.mt6771.so \
     vendor/teracube/v7101o/proprietary/vendor/lib/hw/vendor.mediatek.hardware.camera.atms@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.camera.atms@1.0-impl.so \
     vendor/teracube/v7101o/proprietary/vendor/lib/hw/vendor.mediatek.hardware.camera.bgservice@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.camera.bgservice@1.1-impl.so \
@@ -918,7 +917,6 @@ PRODUCT_COPY_FILES += \
     vendor/teracube/v7101o/proprietary/vendor/lib64/hw/memtrack.mt6771.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/memtrack.mt6771.so \
     vendor/teracube/v7101o/proprietary/vendor/lib64/hw/power.mt6771.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/power.mt6771.so \
     vendor/teracube/v7101o/proprietary/vendor/lib64/hw/sensors.mt6771.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sensors.mt6771.so \
-    vendor/teracube/v7101o/proprietary/vendor/lib64/hw/sound_trigger.primary.mt6771.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sound_trigger.primary.mt6771.so \
     vendor/teracube/v7101o/proprietary/vendor/lib64/hw/thermal.mt6771.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/thermal.mt6771.so \
     vendor/teracube/v7101o/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.camera.atms@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.camera.atms@1.0-impl.so \
     vendor/teracube/v7101o/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.camera.bgservice@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.camera.bgservice@1.1-impl.so \
