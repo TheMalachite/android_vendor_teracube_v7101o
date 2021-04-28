@@ -70,8 +70,7 @@ PRODUCT_COPY_FILES += \
     vendor/teracube/v7101o/proprietary/vendor/bin/hw/android.hardware.drm@1.3-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.3-service.widevine \
     vendor/teracube/v7101o/proprietary/vendor/bin/hw/android.hardware.gnss@2.0-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gnss@2.0-service-mediatek \
     vendor/teracube/v7101o/proprietary/vendor/bin/hw/android.hardware.light@2.0-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.light@2.0-service-mediatek \
-    vendor/teracube/v7101o/proprietary/vendor/bin/hw/android.hardware.neuralnetworks@1.1-service-apunn:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.neuralnetworks@1.1-service-apunn \
-    vendor/teracube/v7101o/proprietary/vendor/bin/hw/android.hardware.neuralnetworks@1.1-service-gpunn:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.neuralnetworks@1.1-service-gpunn \
+    vendor/teracube/v7101o/proprietary/vendor/bin/hw/android.hardware.neuralnetworks@1.3-service-mtk-neuron:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.neuralnetworks@1.3-service-mtk-neuron \
     vendor/teracube/v7101o/proprietary/vendor/bin/hw/android.hardware.sensors@2.0-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.sensors@2.0-service-mediatek \
     vendor/teracube/v7101o/proprietary/vendor/bin/hw/android.hardware.usb@1.1-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.usb@1.1-service-mediatek \
     vendor/teracube/v7101o/proprietary/vendor/bin/hw/android.hardware.wifi@1.0-service-lazy-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.wifi@1.0-service-lazy-mediatek \
@@ -261,8 +260,7 @@ PRODUCT_COPY_FILES += \
     vendor/teracube/v7101o/proprietary/vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.3-service.widevine.rc \
     vendor/teracube/v7101o/proprietary/vendor/etc/init/android.hardware.gnss@2.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss@2.0-service-mediatek.rc \
     vendor/teracube/v7101o/proprietary/vendor/etc/init/android.hardware.light@2.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.light@2.0-service-mediatek.rc \
-    vendor/teracube/v7101o/proprietary/vendor/etc/init/android.hardware.neuralnetworks@1.1-service-apunn.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.neuralnetworks@1.1-service-apunn.rc \
-    vendor/teracube/v7101o/proprietary/vendor/etc/init/android.hardware.neuralnetworks@1.1-service-gpunn.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.neuralnetworks@1.1-service-gpunn.rc \
+    vendor/teracube/v7101o/proprietary/vendor/etc/init/android.hardware.neuralnetworks@1.3-service-mtk-neuron.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.neuralnetworks@1.3-service-mtk-neuron.rc \
     vendor/teracube/v7101o/proprietary/vendor/etc/init/android.hardware.sensors@2.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.sensors@2.0-service-mediatek.rc \
     vendor/teracube/v7101o/proprietary/vendor/etc/init/android.hardware.usb@1.1-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb@1.1-service-mediatek.rc \
     vendor/teracube/v7101o/proprietary/vendor/etc/init/android.hardware.wifi@1.0-service-lazy-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.wifi@1.0-service-lazy-mediatek.rc \
@@ -820,7 +818,7 @@ PRODUCT_COPY_FILES += \
     vendor/teracube/v7101o/proprietary/vendor/lib/libmtksysutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtksysutils.so \
     vendor/teracube/v7101o/proprietary/vendor/lib/libneuroeara.so:$(TARGET_COPY_OUT_VENDOR)/lib/libneuroeara.so \
     vendor/teracube/v7101o/proprietary/vendor/lib/libneuropilot_hal_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libneuropilot_hal_utils.so \
-    vendor/teracube/v7101o/proprietary/vendor/lib/libneuropilot_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib/libneuropilot_jni.so \
+    vendor/teracube/v7101o/proprietary/vendor/lib/libneuropilot_jni_R.so:$(TARGET_COPY_OUT_VENDOR)/lib/libneuropilot_jni_R.so \
     vendor/teracube/v7101o/proprietary/vendor/lib/libnvram.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnvram.so \
     vendor/teracube/v7101o/proprietary/vendor/lib/libnvram_daemon_callback.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnvram_daemon_callback.so \
     vendor/teracube/v7101o/proprietary/vendor/lib/libnvram_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnvram_platform.so \
@@ -1254,8 +1252,11 @@ PRODUCT_COPY_FILES += \
     vendor/teracube/v7101o/proprietary/vendor/lib64/libmtktinyxml.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtktinyxml.so \
     vendor/teracube/v7101o/proprietary/vendor/lib64/libmtkutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkutils.so \
     vendor/teracube/v7101o/proprietary/vendor/lib64/libneuroeara.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libneuroeara.so \
+    vendor/teracube/v7101o/proprietary/vendor/lib64/libneuron_adapter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libneuron_adapter.so \
+    vendor/teracube/v7101o/proprietary/vendor/lib64/libneuron_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libneuron_platform.so \
+    vendor/teracube/v7101o/proprietary/vendor/lib64/libneuron_runtime.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libneuron_runtime.so \
     vendor/teracube/v7101o/proprietary/vendor/lib64/libneuropilot_hal_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libneuropilot_hal_utils.so \
-    vendor/teracube/v7101o/proprietary/vendor/lib64/libneuropilot_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libneuropilot_jni.so \
+    vendor/teracube/v7101o/proprietary/vendor/lib64/libneuropilot_jni_R.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libneuropilot_jni_R.so \
     vendor/teracube/v7101o/proprietary/vendor/lib64/libnvram.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnvram.so \
     vendor/teracube/v7101o/proprietary/vendor/lib64/libnvram_daemon_callback.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnvram_daemon_callback.so \
     vendor/teracube/v7101o/proprietary/vendor/lib64/libnvram_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnvram_platform.so \
@@ -1361,4 +1362,5 @@ PRODUCT_PACKAGES += \
     mediatek-telephony-base \
     mediatek-telephony-common \
     android.hardware.gpu@1.0-service \
+    android.hardware.neuralnetworks@1.3-service-mtk-dsp-gpu \
     manifest_android.hardware.drm@1.3-service.widevine
