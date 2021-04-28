@@ -668,6 +668,7 @@ PRODUCT_COPY_FILES += \
     vendor/teracube/v7101o/proprietary/vendor/lib/lib_iir.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_iir.so \
     vendor/teracube/v7101o/proprietary/vendor/lib/lib_speech_enh.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_speech_enh.so \
     vendor/teracube/v7101o/proprietary/vendor/lib/libaedv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaedv.so \
+    vendor/teracube/v7101o/proprietary/vendor/lib/libarmnn_ndk.mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarmnn_ndk.mtk.so \
     vendor/teracube/v7101o/proprietary/vendor/lib/libaudio_param_parser-vnd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudio_param_parser-vnd.so \
     vendor/teracube/v7101o/proprietary/vendor/lib/libaudiocompensationfilter_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiocompensationfilter_vendor.so \
     vendor/teracube/v7101o/proprietary/vendor/lib/libaudiocompensationfilterc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiocompensationfilterc.so \
@@ -724,6 +725,7 @@ PRODUCT_COPY_FILES += \
     vendor/teracube/v7101o/proprietary/vendor/lib/libcharon-ss.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcharon-ss.so \
     vendor/teracube/v7101o/proprietary/vendor/lib/libchromanr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromanr.so \
     vendor/teracube/v7101o/proprietary/vendor/lib/libcrypto-ss.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcrypto-ss.so \
+    vendor/teracube/v7101o/proprietary/vendor/lib/libcmdl_ndk.mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcmdl_ndk.mtk.so \
     vendor/teracube/v7101o/proprietary/vendor/lib/libcurl-ss.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcurl-ss.so \
     vendor/teracube/v7101o/proprietary/vendor/lib/libcurl_xcap_md.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcurl_xcap_md.so \
     vendor/teracube/v7101o/proprietary/vendor/lib/libcustom_nvram.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcustom_nvram.so \
@@ -1052,6 +1054,7 @@ PRODUCT_COPY_FILES += \
     vendor/teracube/v7101o/proprietary/vendor/lib64/libacdk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libacdk.so \
     vendor/teracube/v7101o/proprietary/vendor/lib64/libaedv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaedv.so \
     vendor/teracube/v7101o/proprietary/vendor/lib64/libarmnn.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarmnn.so \
+    vendor/teracube/v7101o/proprietary/vendor/lib64/libarmnn_ndk.mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarmnn_ndk.mtk.so \
     vendor/teracube/v7101o/proprietary/vendor/lib64/libaudio_param_parser-vnd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudio_param_parser-vnd.so \
     vendor/teracube/v7101o/proprietary/vendor/lib64/libaudiocompensationfilter_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudiocompensationfilter_vendor.so \
     vendor/teracube/v7101o/proprietary/vendor/lib64/libaudiocompensationfilterc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudiocompensationfilterc.so \
@@ -1120,6 +1123,7 @@ PRODUCT_COPY_FILES += \
     vendor/teracube/v7101o/proprietary/vendor/lib64/libcharon-ss.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcharon-ss.so \
     vendor/teracube/v7101o/proprietary/vendor/lib64/libchromanr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libchromanr.so \
     vendor/teracube/v7101o/proprietary/vendor/lib64/libcmdl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcmdl.so \
+    vendor/teracube/v7101o/proprietary/vendor/lib64/libcmdl_ndk.mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcmdl_ndk.mtk.so \
     vendor/teracube/v7101o/proprietary/vendor/lib64/libcrypto-ss.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcrypto-ss.so \
     vendor/teracube/v7101o/proprietary/vendor/lib64/libcurl-ss.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcurl-ss.so \
     vendor/teracube/v7101o/proprietary/vendor/lib64/libcurl_xcap_md.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcurl_xcap_md.so \
