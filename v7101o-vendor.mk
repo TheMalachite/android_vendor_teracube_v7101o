@@ -65,7 +65,6 @@ PRODUCT_COPY_FILES += \
     vendor/teracube/v7101o/proprietary/vendor/bin/gsm0710muxd:$(TARGET_COPY_OUT_VENDOR)/bin/gsm0710muxd \
     vendor/teracube/v7101o/proprietary/vendor/bin/hostapd_cli:$(TARGET_COPY_OUT_VENDOR)/bin/hostapd_cli \
     vendor/teracube/v7101o/proprietary/vendor/bin/hw/android.hardware.audio@5.0-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.audio@5.0-service-mediatek \
-    vendor/teracube/v7101o/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-service \
     vendor/teracube/v7101o/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.0-service-mediatek \
     vendor/teracube/v7101o/proprietary/vendor/bin/hw/android.hardware.drm@1.3-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.3-service.widevine \
     vendor/teracube/v7101o/proprietary/vendor/bin/hw/android.hardware.gnss@2.0-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gnss@2.0-service-mediatek \
@@ -255,7 +254,6 @@ PRODUCT_COPY_FILES += \
     vendor/teracube/v7101o/proprietary/vendor/etc/factory.ini:$(TARGET_COPY_OUT_VENDOR)/etc/factory.ini \
     vendor/teracube/v7101o/proprietary/vendor/etc/fstb.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/fstb.cfg \
     vendor/teracube/v7101o/proprietary/vendor/etc/init/android.hardware.audio@5.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.audio@5.0-service-mediatek.rc \
-    vendor/teracube/v7101o/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc \
     vendor/teracube/v7101o/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-mediatek.rc \
     vendor/teracube/v7101o/proprietary/vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.3-service.widevine.rc \
     vendor/teracube/v7101o/proprietary/vendor/etc/init/android.hardware.gnss@2.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss@2.0-service-mediatek.rc \
@@ -910,7 +908,7 @@ PRODUCT_COPY_FILES += \
     vendor/teracube/v7101o/proprietary/vendor/lib64/hw/audio.r_submix.mt6771.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.r_submix.mt6771.so \
     vendor/teracube/v7101o/proprietary/vendor/lib64/hw/audio.usb.mt6771.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.usb.mt6771.so \
     vendor/teracube/v7101o/proprietary/vendor/lib64/hw/awinic.audio.effect.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/awinic.audio.effect.so \
-    vendor/teracube/v7101o/proprietary/vendor/lib64/hw/fingerprint.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.default.so \
+    vendor/teracube/v7101o/proprietary/vendor/lib64/hw/fingerprint.mt6771.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.mt6771.so \
     vendor/teracube/v7101o/proprietary/vendor/lib64/hw/flp.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/flp.default.so \
     vendor/teracube/v7101o/proprietary/vendor/lib64/hw/gatekeeper.trustkernel.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.trustkernel.so \
     vendor/teracube/v7101o/proprietary/vendor/lib64/hw/gps.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gps.default.so \
