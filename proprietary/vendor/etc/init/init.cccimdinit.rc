@@ -32,6 +32,6 @@ service ccci3_mdinit /vendor/bin/ccci_mdinit 2
     oneshot
     #disabled
 
-#on property:vold.decrypt=trigger_re##start_framework
+#on property:vold.decrypt=trigger_re#start_framework
     #start ccci_mdinit
     #start ccci3_mdinit
