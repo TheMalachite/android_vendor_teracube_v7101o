@@ -56,7 +56,6 @@ PRODUCT_COPY_FILES += \
     vendor/teracube/v7101o/proprietary/vendor/bin/ccci_mdinit:$(TARGET_COPY_OUT_VENDOR)/bin/ccci_mdinit \
     vendor/teracube/v7101o/proprietary/vendor/bin/ccci_rpcd:$(TARGET_COPY_OUT_VENDOR)/bin/ccci_rpcd \
     vendor/teracube/v7101o/proprietary/vendor/bin/charon:$(TARGET_COPY_OUT_VENDOR)/bin/charon \
-    vendor/teracube/v7101o/proprietary/vendor/bin/dtc_vendor:$(TARGET_COPY_OUT_VENDOR)/bin/dtc_vendor \
     vendor/teracube/v7101o/proprietary/vendor/bin/em_hidl:$(TARGET_COPY_OUT_VENDOR)/bin/em_hidl \
     vendor/teracube/v7101o/proprietary/vendor/bin/epdg_wod:$(TARGET_COPY_OUT_VENDOR)/bin/epdg_wod \
     vendor/teracube/v7101o/proprietary/vendor/bin/fuelgauged:$(TARGET_COPY_OUT_VENDOR)/bin/fuelgauged \
@@ -138,6 +137,8 @@ PRODUCT_COPY_FILES += \
     vendor/teracube/v7101o/proprietary/vendor/etc/DSM.xml:$(TARGET_COPY_OUT_VENDOR)/etc/DSM.xml \
     vendor/teracube/v7101o/proprietary/vendor/etc/DSM_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/DSM_config.xml \
     vendor/teracube/v7101o/proprietary/vendor/etc/agps_profiles_conf2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/agps_profiles_conf2.xml \
+    vendor/teracube/v7101o/proprietary/vendor/etc/smsdbvisitor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/smsdbvisitor.xml \
+    vendor/teracube/v7101o/proprietary/vendor/etc/special_pws_channel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/special_pws_channel.xml \
     vendor/teracube/v7101o/proprietary/vendor/etc/apdb/APDB_MT6771_S01__W2006:$(TARGET_COPY_OUT_VENDOR)/etc/apdb/APDB_MT6771_S01__W2006 \
     vendor/teracube/v7101o/proprietary/vendor/etc/apdb/APDB_MT6771_S01__W2006_ENUM:$(TARGET_COPY_OUT_VENDOR)/etc/apdb/APDB_MT6771_S01__W2006_ENUM \
     vendor/teracube/v7101o/proprietary/vendor/etc/audio_param/AudioParamOptions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/AudioParamOptions.xml \
@@ -805,6 +806,7 @@ PRODUCT_COPY_FILES += \
     vendor/teracube/v7101o/proprietary/vendor/lib/libmtkhardware_legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkhardware_legacy.so \
     vendor/teracube/v7101o/proprietary/vendor/lib/libmtklimiter_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtklimiter_vendor.so \
     vendor/teracube/v7101o/proprietary/vendor/lib/libmtknetutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtknetutils.so \
+    vendor/teracube/v7101o/proprietary/vendor/lib/libmtkperf_client_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkperf_client_vendor.so \
     vendor/teracube/v7101o/proprietary/vendor/lib/libmtkproperty.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkproperty.so \
     vendor/teracube/v7101o/proprietary/vendor/lib/libmtkrillog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkrillog.so \
     vendor/teracube/v7101o/proprietary/vendor/lib/libmtkshifter_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkshifter_vendor.so \
@@ -1127,8 +1129,6 @@ PRODUCT_COPY_FILES += \
     vendor/teracube/v7101o/proprietary/vendor/lib64/libdirect-coredump.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdirect-coredump.so \
     vendor/teracube/v7101o/proprietary/vendor/lib64/libdpframework.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdpframework.so \
     vendor/teracube/v7101o/proprietary/vendor/lib64/libeffecthal.base.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libeffecthal.base.so \
-    vendor/teracube/v7101o/proprietary/vendor/lib64/libem_camera_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libem_camera_jni.so \
-    vendor/teracube/v7101o/proprietary/vendor/lib64/libem_sensor_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libem_sensor_jni.so \
     vendor/teracube/v7101o/proprietary/vendor/lib64/libfeature.face.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfeature.face.so \
     vendor/teracube/v7101o/proprietary/vendor/lib64/libfeature.stereo.provider.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfeature.stereo.provider.so \
     vendor/teracube/v7101o/proprietary/vendor/lib64/libfeature.vsdof.hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfeature.vsdof.hal.so \
@@ -1239,6 +1239,7 @@ PRODUCT_COPY_FILES += \
     vendor/teracube/v7101o/proprietary/vendor/lib64/libmtklimiter_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtklimiter_vendor.so \
     vendor/teracube/v7101o/proprietary/vendor/lib64/libmtknetcap.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtknetcap.so \
     vendor/teracube/v7101o/proprietary/vendor/lib64/libmtknetutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtknetutils.so \
+    vendor/teracube/v7101o/proprietary/vendor/lib64/libmtkperf_client_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkperf_client_vendor.so \
     vendor/teracube/v7101o/proprietary/vendor/lib64/libmtkproperty.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkproperty.so \
     vendor/teracube/v7101o/proprietary/vendor/lib64/libmtkrillog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkrillog.so \
     vendor/teracube/v7101o/proprietary/vendor/lib64/libmtkrilutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkrilutils.so \
@@ -1320,7 +1321,6 @@ PRODUCT_COPY_FILES += \
     vendor/teracube/v7101o/proprietary/vendor/lib64/vendor.mediatek.hardware.keymaster_attestation@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.keymaster_attestation@1.0.so \
     vendor/teracube/v7101o/proprietary/vendor/lib64/vendor.mediatek.hardware.keymaster_attestation@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.keymaster_attestation@1.1.so \
     vendor/teracube/v7101o/proprietary/vendor/lib64/vendor.mediatek.hardware.lbs@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.lbs@1.0.so \
-    vendor/teracube/v7101o/proprietary/vendor/lib64/vendor.mediatek.hardware.log@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.log@1.0.so \
     vendor/teracube/v7101o/proprietary/vendor/lib64/vendor.mediatek.hardware.mdmonitor@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.mdmonitor@1.0.so \
     vendor/teracube/v7101o/proprietary/vendor/lib64/vendor.mediatek.hardware.mms@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.mms@1.0.so \
     vendor/teracube/v7101o/proprietary/vendor/lib64/vendor.mediatek.hardware.mms@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.mms@1.1.so \
